@@ -114,6 +114,7 @@ abstract class ThenableJsImpl<T> {
 ///
 /// See: <https://firebase.google.com/docs/reference/js/firebase.FirebaseError>.
 @JS()
+@anonymous
 abstract class FirebaseError {
   external String get code;
   external set code(String s);
